@@ -3,8 +3,8 @@ instances: 1
 memory: 1G
 applications:
   - name: cook
-    host: cookie
+    host: gman
     services:
-      - config-server
+      - cook-config-server
     env:
       SPRING_PROFILES_ACTIVE: dev
